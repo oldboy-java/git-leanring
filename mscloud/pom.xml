@@ -1,10 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.tk</groupId>
 	<artifactId>mscloud</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>pom</packaging>
 
 
@@ -70,17 +71,6 @@
 	</dependencyManagement>
 	<modules>
 		<module>mscloud-api</module>
-		<module>mscloud-provider-dept-8001</module>
-		<module>mscloud-provider-dept-8002</module>
-		<module>mscloud-provider-dept-8003</module>
-		<module>mscloud-provider-dept-hystrix-8001</module>
-		<module>mscloud-eureka-7001</module>
-		<module>mscloud-eureka-7002</module>
-		<module>mscloud-eureka-7003</module>
-		<module>mscloud-consumer-dept-80</module>
-		<module>mscloud-consumer-dept-Feign</module>
-		<module>mscloud-consumer-hystrix-dashboard</module>
-		<module>mscloud-config-3344</module>
 	</modules>
 
 	<build>
