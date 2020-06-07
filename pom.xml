@@ -70,17 +70,6 @@
 	</dependencyManagement>
 	<modules>
 		<module>mscloud-api</module>
-		<module>mscloud-provider-dept-8001</module>
-		<module>mscloud-provider-dept-8002</module>
-		<module>mscloud-provider-dept-8003</module>
-		<module>mscloud-provider-dept-hystrix-8001</module>
-		<module>mscloud-eureka-7001</module>
-		<module>mscloud-eureka-7002</module>
-		<module>mscloud-eureka-7003</module>
-		<module>mscloud-consumer-dept-80</module>
-		<module>mscloud-consumer-dept-Feign</module>
-		<module>mscloud-consumer-hystrix-dashboard</module>
-		<module>mscloud-config-3344</module>
 	</modules>
 
 	<build>
